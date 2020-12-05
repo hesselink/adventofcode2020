@@ -28,7 +28,7 @@ executable 1
 executable 2
   import:              shared-settings
   main-is:             Main.hs
-  hs-source-dirs:      1
+  hs-source-dirs:      2
   build-depends:       split
 
 executable 3
