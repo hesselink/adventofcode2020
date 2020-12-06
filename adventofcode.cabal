@@ -47,3 +47,9 @@ executable 5
   import:              shared-settings
   main-is:             Main.hs
   hs-source-dirs:      5
+
+executable 6
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      6
+  build-depends:       split
