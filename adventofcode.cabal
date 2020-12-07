@@ -53,3 +53,10 @@ executable 6
   main-is:             Main.hs
   hs-source-dirs:      6
   build-depends:       split
+
+executable 7
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      7
+  build-depends:       megaparsec
+                     , containers
