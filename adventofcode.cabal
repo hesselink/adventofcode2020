@@ -60,3 +60,10 @@ executable 7
   hs-source-dirs:      7
   build-depends:       megaparsec
                      , containers
+
+executable 8
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      8
+  build-depends:       containers
+                     , mtl
