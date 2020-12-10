@@ -72,3 +72,8 @@ executable 9
   import:              shared-settings
   main-is:             Main.hs
   hs-source-dirs:      9
+
+executable 10
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      10
