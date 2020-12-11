@@ -77,3 +77,10 @@ executable 10
   import:              shared-settings
   main-is:             Main.hs
   hs-source-dirs:      10
+
+executable 11
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      11
+  build-depends:       containers
+                     , mtl
