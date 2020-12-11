@@ -1,3 +1,4 @@
+{-# LANGUAGE ScopedTypeVariables #-}
 import Data.List.Split (splitOn)
 import Data.Maybe (isJust, fromMaybe)
 import Text.Read (readMaybe)
@@ -54,11 +55,11 @@ isValidHgt s = fromMaybe False $ inches <|> cm
   where
     inches = do
       (a:b:'i':'n':[]) <- return s
-      v <- readMaybe [a,b]
+      v::Int <- readMaybe [a,b]
       return $ v >= 59 && v <= 76
     cm = do
       (a:b:c:'c':'m':[]) <- return s
-      v <- readMaybe [a,b,c]
+      v::Int <- readMaybe [a,b,c]
       return $ v >= 150 && v <= 193
 isValidHcl s = fromMaybe False $ do
   ('#':rs) <- return s

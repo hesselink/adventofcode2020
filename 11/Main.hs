@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-unused-top-binds #-}
 {-# LANGUAGE LambdaCase #-}
 
 import Control.Arrow ((&&&))
