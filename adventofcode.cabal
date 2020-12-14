@@ -95,3 +95,9 @@ executable 13
   main-is:             Main.hs
   hs-source-dirs:      13
   build-depends:       split
+
+executable 14
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      14
+  build-depends:       containers
