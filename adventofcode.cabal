@@ -106,5 +106,5 @@ executable 15
   import:              shared-settings
   main-is:             Main.hs
   hs-source-dirs:      15
-  build-depends:       containers
-                     , split
+  build-depends:       split
+                     , vector
