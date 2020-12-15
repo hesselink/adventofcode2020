@@ -101,3 +101,10 @@ executable 14
   main-is:             Main.hs
   hs-source-dirs:      14
   build-depends:       containers
+
+executable 15
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      15
+  build-depends:       containers
+                     , split
