@@ -108,3 +108,10 @@ executable 15
   hs-source-dirs:      15
   build-depends:       split
                      , vector
+
+executable 16
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      16
+  build-depends:       containers
+                     , megaparsec
