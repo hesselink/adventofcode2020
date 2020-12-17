@@ -115,3 +115,9 @@ executable 16
   hs-source-dirs:      16
   build-depends:       containers
                      , megaparsec
+
+executable 17
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      17
+  build-depends:       containers
