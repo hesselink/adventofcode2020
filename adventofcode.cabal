@@ -121,3 +121,11 @@ executable 17
   main-is:             Main.hs
   hs-source-dirs:      17
   build-depends:       containers
+
+executable 18
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      18
+  build-depends:       megaparsec
+                     , parser-combinators
+                     , text
