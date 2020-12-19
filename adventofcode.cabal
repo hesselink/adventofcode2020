@@ -129,3 +129,11 @@ executable 18
   build-depends:       megaparsec
                      , parser-combinators
                      , text
+
+executable 19
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      19
+  build-depends:       megaparsec
+                     , containers
+                     , parser-combinators
