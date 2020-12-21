@@ -137,3 +137,10 @@ executable 19
   build-depends:       megaparsec
                      , containers
                      , parser-combinators
+
+executable 20
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      20
+  build-depends:       split
+                     , containers
