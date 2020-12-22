@@ -151,3 +151,12 @@ executable 21
   hs-source-dirs:      21
   build-depends:       split
                      , containers
+
+executable 22
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      22
+  build-depends:       split
+                     , containers
+                     , mtl
+                     , hashable
