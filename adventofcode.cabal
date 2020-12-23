@@ -159,3 +159,11 @@ executable 22
   build-depends:       split
                      , containers
                      , mtl
+
+executable 23
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      23
+  build-depends:       mtl
+                     , unordered-containers
+                     , containers
