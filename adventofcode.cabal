@@ -173,3 +173,8 @@ executable 24
   main-is:             Main.hs
   hs-source-dirs:      24
   build-depends:       containers
+
+executable 25
+  import:              shared-settings
+  main-is:             Main.hs
+  hs-source-dirs:      25
